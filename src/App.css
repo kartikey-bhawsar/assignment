@@ -9,7 +9,8 @@ body{
 .container {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -48,7 +49,7 @@ body{
     padding-right: 20px;
     position: absolute;
     bottom: 0;
-    left: 100px;
+    left: 35%;
 }
 
 .card button:hover {
@@ -84,5 +85,5 @@ body{
   padding-right: 20px;
   position: absolute;
   bottom: 0;
-  left: 200px;
+  left: 42%;
 }
