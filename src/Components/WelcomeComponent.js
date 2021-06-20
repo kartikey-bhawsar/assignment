@@ -8,7 +8,7 @@ const WelcomeComponent = (props) => {
     }
 
     return (
-        <div>
+        <div className="container">
             <div className="secondPage">
                 <h1>BINGO!!!!!!!</h1><br />
                 <h2>Enjoy Your Free Trial Of <b>{selectedProduct}</b>!</h2>
